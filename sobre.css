@@ -1,0 +1,142 @@
+*{
+    margin:0 ;
+    height: 0;
+    font-family: 'Roboto',sans-serif;
+    }
+body{
+    background: #ff7200;
+}
+    .container{
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(-45deg,#ffce51,#ff7253,#fd5754);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+margin-left: 40px;
+}
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+color: #ff7200;
+}
+nav{
+    flex: 1;
+    text-align: center ;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url('paloma.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+
+}
+
+.card1{
+    background-image: url('paloma.jpg');
+}
+.card2{
+    background-image: url('luana.jpg');
+}
+.card3{
+    background-image: url('emmanoel.jpg');
+}
+
+.card:hover{
+    transform: translateY(-10px);
+
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+
+}
+
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
